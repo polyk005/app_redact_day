@@ -3,6 +3,9 @@ package main
 import (
 	"log"
 
+	_ "github.com/golang-migrate/migrate/v4/database/postgres"
+	_ "github.com/golang-migrate/migrate/v4/source/file"
+	_ "github.com/lib/pq"
 	"github.com/polyk005/todo-app"
 	"github.com/polyk005/todo-app/pkg/handler"
 	"github.com/polyk005/todo-app/pkg/repository"
