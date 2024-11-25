@@ -1,7 +1,3 @@
-import (
-    _"github.com/lib/pq"
-)
-
 CREATE TABLE users
 (
     id              serial       not null unique,
